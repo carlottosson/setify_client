@@ -56,7 +56,7 @@ const User = () => {
     <div className="ui-wrap">
       <Sidebar playlists={playlists} fetchSongs={fetchSongs} isPlaylists={isPlaylists}/>
       <Header user={user} isUser={isUser}/>
-      <Main songs={songs} isSongs={isSongs} />
+      <Main songs={songs} setSongs={setSongs} isSongs={isSongs} />
     </div>
   )
 }

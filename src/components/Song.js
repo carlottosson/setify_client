@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Song = ({ song, index }) => {
+const Song = ({ provided, song, index }) => {
   console.log(song);
   return (
-    <li className="song-list__item">
+    <li {...provided.draggableProps} {...provided.dragHandleProps} ref={provided.innerRef} className="song-list__item">
       <div className="song-list__index">
         {index}
       </div>

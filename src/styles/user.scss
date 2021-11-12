@@ -5,7 +5,6 @@
   grid-template-columns: 250px 8fr;
   grid-template-areas:
     "header header"
-    "sidebar main"
     "sidebar main";
 }
 
@@ -98,7 +97,7 @@
 
     &:hover {
       background-color: var(--color-hover);
-      cursor: copy;
+      // cursor: copy;
     }
   }
 
@@ -136,7 +135,7 @@
   }
 
   &__btn {
-    cursor: grab;
+    // cursor: grab;
     background: none;
     border: none;
     width: 3em;
