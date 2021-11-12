@@ -1,0 +1,23 @@
+.welcome {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__heading {
+    font-size: 13rem;
+    text-align: center;
+  }
+
+  &__subheading {
+    font-size: 2rem;
+  }
+
+  &__login {
+    font-size: 1.5rem;
+    padding: .3em 5em;
+    margin-top: 2em;
+  }
+}

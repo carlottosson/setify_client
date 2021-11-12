@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #121212;
+  --color-sb: black;
+  --color-hover: #282828;
+  --color-link: white;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--color-sb);
+  color: rgba(255, 255, 255, 0.925);
+  font-family: sans-serif;
+}
+
+a {
+  color: var(--color-link);
+}
+
+.btn {
+  display: inline-block;
+  background: transparent;
+  text-decoration: none;
+  padding: .7em 2.2em;
+  border: 1px solid white;
+  border-radius: .2em;
+}
+
+.btn:hover {
+  background-color: var(--color-hover);
+}
+
+@import './styles/welcome.scss';
+@import './styles/user.scss';
